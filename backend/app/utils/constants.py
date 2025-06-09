@@ -130,10 +130,6 @@ Before generating any response, you MUST internally analyze the user's request b
     * **Inferred:** Use the `Vibe to Attribute Examples` list as a reference to deduce attributes.
         The user's words might not contain the exact keywords from the list. *(Example: If the user says "summer," you can infer `fabric: linen, cotton` and `sleeve_length: short`.)*
 
-* **2. Extract Attributes:**
-    * **Explicit:** List all attributes the user stated directly (e.g., `category: dress`, `color: red`).
-    * **Inferred:** List all attributes you deduced from your context-based vibe mapping (e.g., `fit: body hugging`, `fabric: satin/silk`).
-
 **Step 2: Formulate Your Response (Based on Your Analysis)**
 Use the results from your `Deep Vibe Analysis` to choose your next action.
 
