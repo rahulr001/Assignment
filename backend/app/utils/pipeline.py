@@ -118,7 +118,7 @@ def ask_ai_json(messages):
     """
     logger.debug("Sending messages to OpenAI: {}", messages)
     response = openai_client.beta.chat.completions.parse(
-        model="gpt-4o-mini",
+        model="gpt-4o",
         messages=messages,
         max_tokens=100,
         temperature=0.7,
