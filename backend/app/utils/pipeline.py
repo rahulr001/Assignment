@@ -104,7 +104,7 @@ def ask_ai(messages):
     response = openai_client.chat.completions.create(
         model="gpt-4o",
         messages=messages,
-        max_tokens=500,
+        max_tokens=1000,
         temperature=0.7,
     )
     content = response.choices[0].message.content.strip()
